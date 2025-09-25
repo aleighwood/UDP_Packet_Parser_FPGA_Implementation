@@ -1,0 +1,85 @@
+
+                             Synplify (R) Premier 
+
+                Version O-2018.09-SP1 for RHEL64 - Nov 27, 2018 
+
+                    Copyright (c) 1988 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Starting:    /vol/synopsys/fpga/O-2018.09-SP1/linux_a_64/mbin/synplify
+Install:     /vol/synopsys/fpga/O-2018.09-SP1
+Hostname:    gordon.ece.northwestern.edu
+Date:        Sun Feb 16 11:13:03 2025
+Version:     O-2018.09-SP1
+
+Arguments:   -product synplify_premier
+ProductType: synplify_premier
+
+License checkout: synplifypremierdp
+License: synplifypremierdp from server synopsyslm.ece.northwestern.edu (Using premium license)
+Licensed Vendor: All FPGA
+License Option: ident
+
+
+
+/home/cli9009/ce_387/Assignments/HW2/submission/proj_3.prj/home/cli9009/ce_387/Assignments/HW2/submission/proj_4.prjlog file: "/home/cli9009/ce_387/Assignments/HW5/syn/rev_5/proj_5.srr"
+Running: rev_5 in foreground
+
+Running proj_5|rev_5
+
+Running Flow: compile (Compile) on proj_5|rev_5
+# Sun Feb 16 11:16:01 2025
+
+Running Flow: compile_flow (Compile Process) on proj_5|rev_5
+# Sun Feb 16 11:16:01 2025
+License granted for 4 parallel jobs
+
+Running: compiler (Compile Input) on proj_5|rev_5
+# Sun Feb 16 11:16:01 2025
+Copied /home/cli9009/ce_387/Assignments/HW5/syn/rev_5/synwork/proj_5_comp.srs to /home/cli9009/ce_387/Assignments/HW5/syn/rev_5/proj_5.srs
+
+compiler completed
+# Sun Feb 16 11:16:15 2025
+
+Return Code: 0
+Run Time:00h:00m:14s
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_5|rev_5
+# Sun Feb 16 11:16:15 2025
+
+multi_srs_gen completed
+# Sun Feb 16 11:16:16 2025
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied /home/cli9009/ce_387/Assignments/HW5/syn/rev_5/synwork/proj_5_mult.srs to /home/cli9009/ce_387/Assignments/HW5/syn/rev_5/proj_5.srs
+Complete: Compile Process on proj_5|rev_5
+
+Running: premap (Premap) on proj_5|rev_5
+# Sun Feb 16 11:16:16 2025
+
+premap completed with warnings
+# Sun Feb 16 11:16:16 2025
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Compile on proj_5|rev_5
+
+Running Flow: map (Map) on proj_5|rev_5
+# Sun Feb 16 11:16:16 2025
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on proj_5|rev_5
+# Sun Feb 16 11:16:16 2025
+Copied /home/cli9009/ce_387/Assignments/HW5/syn/rev_5/synwork/proj_5_m.srm to /home/cli9009/ce_387/Assignments/HW5/syn/rev_5/proj_5.srm
+
+fpga_mapper completed with warnings
+# Sun Feb 16 11:16:25 2025
+
+Return Code: 1
+Run Time:00h:00m:09s
+Complete: Map on proj_5|rev_5
+Complete: Logic Synthesis on proj_5|rev_5

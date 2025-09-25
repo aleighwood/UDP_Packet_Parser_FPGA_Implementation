@@ -5,9 +5,33 @@
 
 # But keep these specific directories
 !sv/
-!source/
-!uvm/
+!sv/**
 !sim/
+!sim/**
+!uvm/
+!uvm/**
 
 # Keep the .gitignore file itself
-#!.gitignore
+!.gitignore
+
+._*ehthumbs.db
+
+.Spotlight-V100Thumbs.dbgitignore
+
+.Trashes
+
+ehthumbs.db# Ignore everything by default
+
+Thumbs.db*
+
+# But keep these specific directories and files
+!sv/
+!uvm/
+!sim/
+#!udp/
+#!syn/
+#!*.docx
+#!README.md
+
+# Keep the .gitignore file itself
+!.gitignore
