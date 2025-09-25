@@ -10,4 +10,4 @@
 !sim/
 
 # Keep the .gitignore file itself
-!.gitignore
+#!.gitignore
