@@ -1,0 +1,13 @@
+# FPGA Project .gitignore
+
+# Ignore everything by default
+*
+
+# But keep these specific directories
+!sv/
+!source/
+!uvm/
+!sim/
+
+# Keep the .gitignore file itself
+!.gitignore
